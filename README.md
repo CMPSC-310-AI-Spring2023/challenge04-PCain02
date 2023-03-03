@@ -24,6 +24,7 @@ Source : https://iq.opengenus.org/gaussian-naive-bayes/
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
 The Multinomial Naive Bayes algorithm is based on the Naive Bayes algorithm but is used for multinomially distributed data. This distribution utilizes vectors for each class.
+Source: https://scikit-learn.org/stable/modules/naive_bayes.html
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
@@ -34,6 +35,7 @@ Based on the performance analysis the performance of this algorithm is not as go
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
 The Complement Naive Bayes algorithm goes a step further than the Multinomial Naive Bayes algorithm with the ability to adapt to imbalanced data sets.
+Source: https://scikit-learn.org/stable/modules/naive_bayes.html
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
@@ -43,8 +45,9 @@ Based on the confusion matrix of this algorithm compared to the other algorithms
 
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
-TODO
+This algorithm uses the naive Bayes training and classification techniques but assumes the data to be binary-valued and distributes it according to multivariate Bernoulli distributions.
+Source: https://scikit-learn.org/stable/modules/naive_bayes.html
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
-TODO
+This Bernoulli Naive Bayes algorithm has the lowest scores out of all the algorithms we have looked at so far. The confusion matrix shows that it was wrong more times than it was right. The accuracy is very low at 44% and the f1-score is the lowest we have seen. 
