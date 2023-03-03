@@ -33,11 +33,11 @@ Based on the performance analysis the performance of this algorithm is not as go
 
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
-TODO
+The Complement Naive Bayes algorithm goes a step further than the Multinomial Naive Bayes algorithm with the ability to adapt to imbalanced data sets.
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
-TODO
+Based on the confusion matrix of this algorithm compared to the other algorithms this came up with relatively more false postives. The accuracy was also not the greatest and seems to go down as these algorithms get further from the original Guassian Naive Bayes algorithm. 
 
 ### Part 4: Bernoulli Naive Bayes
 
