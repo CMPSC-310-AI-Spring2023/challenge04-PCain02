@@ -23,11 +23,11 @@ Source : https://iq.opengenus.org/gaussian-naive-bayes/
 
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
-This algorithm is based on the Naive Bayes algorithm but is used for multinomially distributed data.
+The Multinomial Naive Bayes algorithm is based on the Naive Bayes algorithm but is used for multinomially distributed data. This distribution utilizes vectors for each class.
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
-TODO
+Based on the performance analysis the performance of this algorithm is not as good as the Guassian Naive Bayes algorithm. The accuracy of this algorithm is much lower and the precision has a wide variety between 59%-92%.
 
 ### Part 3: Complement Naive Bayes
 
