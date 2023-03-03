@@ -12,17 +12,18 @@ Explore various Naive Bayes Algorithms in the given Colab notebook. Then, answer
 
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
-TODO
+Gaussian Naive Bayes follows a Guassian distribution pattern. This algorithm also supports continuous valued features.
+Source : https://iq.opengenus.org/gaussian-naive-bayes/ 
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with other algorithms below are encouraged).
 
-TODO
+ Compared to the other algorithms Guassian Naive Bayes is the most accurate at just over 94%. Additionally, when compared to the other algorithms the precision score is the highest too. The f1-score of this algorithm is overall the highest.
 
 ### Part 2: Multinomial Naive Bayes
 
 1.   Give 1-2 sentence description of the distribution assumed in this algorithm.
 
-TODO
+This algorithm is based on the Naive Bayes algorithm but is used for multinomially distributed data.
 
 2.   Provide your observations on the performance of this algorithm on the wine data (comparisons with bayes algorithms below are encouraged).
 
